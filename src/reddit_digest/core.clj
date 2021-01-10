@@ -19,7 +19,7 @@
 (def subreddit-path "/r/")
 (defn reddit-query [n] (str "/top/.json?t=week&limit=" n))
 (def sender "reddit-digest@svenvandam.com")
-(def title "React Digest")
+(def title "Reddit Digest")
 
 (defn fetch-top-posts [subreddit n]
   (let [response (client/get
