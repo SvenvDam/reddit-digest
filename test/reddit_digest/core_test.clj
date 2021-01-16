@@ -12,8 +12,8 @@
         expected {:title        "Rust Design Patterns now also as a book"
                   :score        765
                   :comments     59
-                  :url          "https://www.reddit.com/r/rust/comments/kowtqn/rust_design_patterns_now_also_as_a_book/"
-                  :comment-link "https://www.reddit.com/r/rust/comments/kowtqn/rust_design_patterns_now_also_as_a_book/"}]
+                  :url          "https://old.reddit.com/r/rust/comments/kowtqn/rust_design_patterns_now_also_as_a_book/"
+                  :comment-link "https://old.reddit.com/r/rust/comments/kowtqn/rust_design_patterns_now_also_as_a_book/"}]
     (testing "clean-post-data extracts and formats data from API response"
       (is (= top-post expected)))))
 

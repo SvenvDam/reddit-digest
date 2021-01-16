@@ -15,7 +15,7 @@
 
 ;; constants
 (def user-agent "digest:v0.1 (by /u/SvenvDam)")
-(def reddit-base-url "https://www.reddit.com")
+(def reddit-base-url "https://old.reddit.com")
 (def subreddit-path "/r/")
 (defn reddit-query [n] (str "/top/.json?t=week&limit=" n))
 (def sender "reddit-digest@svenvandam.com")
